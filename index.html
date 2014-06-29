@@ -8,15 +8,15 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <title>Home by pyquiz</title>
+    <title>Interesting Python Snippets by pyquiz</title>
   </head>
 
   <body>
 
     <header>
       <div class="container">
-        <h1>Home</h1>
-        <h2>Python Quiz</h2>
+        <h1>Interesting Python Snippets</h1>
+        <h2>Interesting python snippets</h2>
 
         <section id="downloads">
           <a href="https://github.com/pyquiz" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
@@ -27,7 +27,24 @@
     <div class="container">
       <section id="main_content">
         <h1>
-<a name="hello-world" class="anchor" href="#hello-world"><span class="octicon octicon-link"></span></a>Hello, World!</h1>
+<a name="intro" class="anchor" href="#intro"><span class="octicon octicon-link"></span></a>Intro</h1>
+
+<p>In my short career of writing python codes, I came across interesting code snippets. This site is to share these with people like you.</p>
+
+<h3>
+<a name="1-keyword-argument" class="anchor" href="#1-keyword-argument"><span class="octicon octicon-link"></span></a>1. Keyword Argument</h3>
+
+<p>My function have following signature:</p>
+
+<div class="highlight highlight-python"><pre><span class="k">def</span> <span class="nf">myfunc</span><span class="p">(</span><span class="n">arg1</span><span class="p">,</span> <span class="n">arg2</span><span class="p">,</span> <span class="n">karg1</span><span class="o">=</span><span class="s">'Hello'</span><span class="p">,</span> <span class="n">karg2</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="k">pass</span>
+</pre></div>
+
+<p>Now if we change the function signature like below, will there be any problem?</p>
+
+<div class="highlight highlight-python"><pre><span class="k">def</span> <span class="nf">myfunc</span><span class="p">(</span><span class="n">arg1</span><span class="p">,</span> <span class="n">arg2</span><span class="p">,</span> <span class="n">karg1</span><span class="o">=</span><span class="s">'Hello'</span><span class="p">,</span> <span class="n">karg3</span><span class="o">=</span><span class="s">'World'</span><span class="p">,</span> <span class="n">karg2</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="k">pass</span>
+</pre></div>
       </section>
     </div>
 
